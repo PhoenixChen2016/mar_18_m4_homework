@@ -6,9 +6,11 @@ namespace Tree
 	{
 		private static void Main(string[] args)
 		{
-			for (var i = 0; i < 5; i++)
+			var level = 6;
+
+			for (var i = 0; i < level; i++)
 			{
-				for (var j = 4 - i; j > 0; j--)
+				for (var j = level - 1 - i; j > 0; j--)
 					Console.Write(' ');
 				for (var j = 0; j < i * 2 + 1; j++)
 					Console.Write('*');
