@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "m4_課外作業_從1到100共100個整數的總和_印出來", "m4_課外作業_從1到100共100個整數的總和_印出來\m4_課外作業_從1到100共100個整數的總和_印出來.csproj", "{DB4CDC24-CCCA-4E1A-8FC6-927F2890E5A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB4CDC24-CCCA-4E1A-8FC6-927F2890E5A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB4CDC24-CCCA-4E1A-8FC6-927F2890E5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB4CDC24-CCCA-4E1A-8FC6-927F2890E5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB4CDC24-CCCA-4E1A-8FC6-927F2890E5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
