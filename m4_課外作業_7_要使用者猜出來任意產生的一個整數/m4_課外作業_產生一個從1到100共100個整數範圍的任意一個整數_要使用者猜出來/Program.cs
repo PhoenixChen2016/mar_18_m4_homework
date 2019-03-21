@@ -40,13 +40,13 @@ internal class Program
 				var delta = umep - 使用者猜的整數;
 
 				if (delta < -20)
-					Console.WriteLine("小很多");
+					Console.WriteLine("猜太大了，請往小的方向猜");
 				else if (delta < 0)
-					Console.WriteLine("小一點");
+					Console.WriteLine("快接近了，請往小的方向猜");
 				else if (delta > 20)
-					Console.WriteLine("大很多");
+					Console.WriteLine("猜太小了，請往大的方向猜");
 				else if (delta > 0)
-					Console.WriteLine("大一點");
+					Console.WriteLine("快接近了，請往大的方向猜");
 				else if (delta == 0)
 				{
 					Console.WriteLine("正確答案");

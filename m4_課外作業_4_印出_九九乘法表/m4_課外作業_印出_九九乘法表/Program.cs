@@ -18,7 +18,7 @@ internal class Program
 		while (++i < 10)
 		{
 			while (++j < 10)
-				Console.Write($"{i}x{j}={FormatNumber(i * j)} ");
+				Console.Write($"{i}x{j}={i * j,2} ");
 
 			Console.WriteLine();
 			j = 0;
@@ -27,10 +27,5 @@ internal class Program
 		Console.WriteLine();
 		Console.ResetColor();
 		Console.WriteLine("結束");
-	}
-
-	private static string FormatNumber(int number)
-	{
-		return $"{(number < 10 ? " " : string.Empty)}{number}";
 	}
 }
